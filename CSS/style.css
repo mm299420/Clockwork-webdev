@@ -1,0 +1,43 @@
+body {
+    background-color: #696969;
+}
+
+#HomeBTN:hover #HomeIMG:hover {
+    transform: rotate(90deg);
+}
+#HomeBTN {
+    position: fixed;
+    top: 85.55%;
+    left: 75%;
+    z-index: 999;
+}
+#HomeMenu {
+    color: darkred;
+    border-radius: 5.594999em;
+    height: 42em;
+    width: auto;
+    background-color: dimgrey;
+    position: relative;
+    display: none;
+    z-index: 888;
+}
+}
+p {
+    color: darkred;
+}
+.categoryTop {
+    height: 5em;
+    width: 100%;
+    border-bottom: black dotted 1px;
+    border-top: black dotted 1px;
+}
+.category {
+    height: 5em;
+    width: 100%;
+    border-bottom: black dotted 1px;
+}
+@media (min-width: 1440px) AND (max-width: 3088px) {
+    .Menu {
+        font-size: x-large;
+    }
+}
